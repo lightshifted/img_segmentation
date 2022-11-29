@@ -19,13 +19,15 @@ We utilize an implementation of Mask RCNN using a RESNET50 + FPN backbone from F
 The model was trained using 600 iterations with a ROI batch size of 512 per image on a single RTX 3080 GPU.
 
 ## 5. Evaluation
-### Metrics used
-**total_loss:** Weighted sum of the individual losses calculated each iteration.
-**loss_cls:** Classification loss in the ROI head. Measures how well the model is at labeling a predicted box with the correct class.
-**loss_box_reg:** Measures the loss for box localisation.
-**loss_mask:** Measures correctness of predicted binary masks.
-**loss_rpn_cls:** Measures how well the RPN is at labelling anchor boxes as foreground or background.
-**loss_rpn_loc:** Measures the loss for localisation of the predicted regions in the RPN.
+### Metrics Used
+|  Metric | Definition   |
+|---|---|
+|  _total_loss_  |  Weighted sum of the individual losses calculated each iteration. |
+| _loss_cls_  | Classification loss in the ROI head. Measures how well the model is at labeling a predicted box with the correct class.  |
+|_loss_box_reg_   | Measures the loss for box localisation.  |
+|_loss_mask_   | Measures correctness of predicted binary masks.  |
+|_loss_rpn_cls_   | Measures how well the RPN is at labelling anchor boxes as foreground or background.  |
+|_loss_rpn_loc_ | Measures the loss for localisation of the predicted regions in the RPN.
 
 ### Results and Performance
 | Metric  | Score  |
