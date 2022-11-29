@@ -1,0 +1,13 @@
+# Packaging
+venv/
+detectron2/datasets/
+detectron2/demo/
+detectron2/docker/
+detectron2/projects/
+detectron2/tests/
+detectron2/configs/
+*.egg-info/
+__pycache__/
+
+# Misc.
+.DS_Store
