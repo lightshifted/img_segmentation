@@ -39,6 +39,7 @@ The model was trained using 600 iterations with a ROI batch size of 512 per imag
 
 ### Example Output
 ![example_1](https://i.ibb.co/zsgwJ6j/results-1.jpg)
+
 ![example_2](https://i.ibb.co/Nsxs2dP/results-2.jpg)
 
 ## 6. Conclusion
