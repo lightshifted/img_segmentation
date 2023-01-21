@@ -44,9 +44,6 @@ The model was trained using 600 iterations with a ROI batch size of 512 per imag
 
 ![example_2](https://i.ibb.co/Nsxs2dP/results-2.jpg)
 
-## 6. Conclusion
-The aim of this project was to pre-train an instance segmentation model for accurately detecting and delineating each distinct shoe present in an image. Future work involves generating image masks for use with Stable Diffusion in-painting model. By combining these two methods, we can then replace detected shoes with the objects specified in a text prompt fed to the text-to-image model. 
-
 ## 7. References
 ### Relevant papers and tutorials
 1. [Detectron2: A PyTorch-based modular object detection library](https://ai.facebook.com/blog/-detectron2-a-pytorch-based-modular-object-detection-library-/)
